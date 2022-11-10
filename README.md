@@ -5,3 +5,5 @@ Grupo Uninorte Ciclo 4a 2022-2
 </a>
 
 Made with [contrib.rocks](https://contrib.rocks).
+
+![Actividad MINTIC](https://img.shields.io/badge/Actividad%20MINTIC-red?style=flat)
