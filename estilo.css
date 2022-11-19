@@ -1,0 +1,33 @@
+/*base*/
+h1{
+    font-size: 32px;
+}
+div{
+    margin: 0 auto;
+}
+a{
+    color: cyan;
+}
+/*maquetacion*/
+.layout-container{
+    width: 640px;
+
+}
+.layout-sidebar{
+    width: 340px;
+}
+/*modulos*/
+.call-button{
+    text-transform: uppercase;
+}
+.search-form{
+    display: inline;
+}
+/*estados*/
+.is-hidden{
+    display: none;
+}
+.is-highlighted{
+    color: brown;
+}
+/*temas - UX   */

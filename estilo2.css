@@ -1,0 +1,16 @@
+/* Codigo css sin implementar los principios OCSS */
+.button {
+    width: 200px;
+    height: 50px;
+    padding: 10px;
+    border: solid   1px #ccc;
+    background: linear-gradient();
+    box-shadow: rgba(0, 0, 0, 0.5);
+}
+.widget{
+    width: 500px;
+    overflow: auto;
+    border: solid   1px #ccc;
+    background: linear-gradient();
+    box-shadow: rgba(0, 0, 0, 0.5);
+}
