@@ -1,5 +1,5 @@
 const colors = ['red', 'green', 'blue', 'gray', 'yellow'];
-const sizes = ['','tiny','small','medium','large', 'huge'];
+const sizes = ['tiny','small','medium','large', 'huge'];
 const fruits = ['apple','banana','kiwi','pear','mango'];
 const items = sizes.reduce(
     (items, size)=>[
@@ -20,6 +20,7 @@ const items = sizes.reduce(
             [],
         ),
     ],
+    []
 );
 export{items};
 
