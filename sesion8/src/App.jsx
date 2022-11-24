@@ -1,8 +1,9 @@
-import NameForm,{} from './components/NameForm';
-import NameFormWithFormValidation from './components/NameFormWithFormValidation';
-import NameFormWithFieldValidation from './components/NameFormWithFieldValidation';
-import NameFormWithKeyStrokeValidation from './components/NameFormWithKeyStrokeValidation';
-import IdealNameForm from './components/IdealNameForm';
+import NameForm,{
+  NameFormWithFormValidation,
+  NameFormWithFieldValidation,
+  NameFormWithKeyStrokeValidation,
+  IdealNameForm,
+} from './components/NameForm';
 
 import './App.css';
 
