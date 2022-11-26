@@ -8,6 +8,13 @@ const spinnerEstilo = {
     textAlign: "center",
     marginTop: "50px",
 };
+
+const spinnerStyle = {
+    width: "4rem",
+    height: "4rem",
+    borderWidth: "2rem",
+};
+
 export default function Home(){
     const [pokemon, setPokemon] = useState();
     const [loading, setLoading] = useState(false);
@@ -48,7 +55,7 @@ export default function Home(){
             {!loading && pokemon ?(
                 <PokemonData
                     name={pokemon.name}
-                    sprites={pokemon.sprites.other.dream_world.front_default}//revisar
+                    sprite={pokemon.sprites.other.dream_world.front_default}//revisar
                     abilities={pokemon.abilities}
                     stats={pokemon.stats}
                     types={pokemon.types}
