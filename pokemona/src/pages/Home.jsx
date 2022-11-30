@@ -55,7 +55,7 @@ export default function Home(){
             {!loading && pokemon ?(
                 <PokemonData
                     name={pokemon.name}
-                    sprite={pokemon.sprites.other.dream_world.front_default}//revisar
+                    sprite={pokemon.sprites.other.dream_world.front_default}
                     abilities={pokemon.abilities}
                     stats={pokemon.stats}
                     types={pokemon.types}
