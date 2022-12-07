@@ -2,7 +2,9 @@
 Grupo Uninorte Ciclo 4a 2022-2
 ## Pasos proyecto Instaya
 1. instalar nodemodules con el comando 
+~~~
 npm-install
+~~~
 2. agregar en web ruta principal el archivo .env.development.local, dentro digitar:
 ~~~
 # .env.development
